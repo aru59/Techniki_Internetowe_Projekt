@@ -12,17 +12,24 @@
   - `rzut.png` - Ilustracja teoretyczna rzutu poziomego.
   - `Rzutpoziomy.gif` - Animacja rzutu poziomego.
 
+---
+
 ## Technologie
 
-HTML5:
--Struktura strony z użyciem semantycznych elementów oraz renderowanie formularzy i animacji w <canvas>.
-CSS3:
--Stylizacja strony,
-JavaScript:
--Obsługa animacji rzutu poziomego, dynamiczna manipulacja DOM oraz interakcja użytkownika z formularzami.
-PHP:
--Obsługa logiki serwera: logowanie, rejestracja, zapis i odczyt parametrów.
-SQLite:
--Przechowywanie danych użytkownika.
-AJAX:
--Dynamiczna komunikacja między klientem a serwerem.
+- **HTML5**  
+  Struktura strony z użyciem semantycznych elementów oraz renderowanie formularzy i animacji w `<canvas>`.
+
+- **CSS3**  
+  Stylizacja strony, w tym responsywny układ i estetyczne elementy wizualne.
+
+- **JavaScript**  
+  Obsługa animacji rzutu poziomego, dynamiczna manipulacja DOM oraz interakcja użytkownika z formularzami.
+
+- **PHP**  
+  Obsługa logiki serwera, w tym logowanie, rejestracja użytkownika oraz zapis i odczyt parametrów.
+
+- **SQLite**  
+  Przechowywanie danych użytkowników, takich jak hasła i zapisane parametry.
+
+- **AJAX**  
+  Dynamiczna komunikacja między klientem a serwerem, umożliwiająca zapis i odczyt danych bez przeładowywania strony.
