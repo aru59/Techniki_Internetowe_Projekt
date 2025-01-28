@@ -1,0 +1,154 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f0f8ff;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+header {
+  background-color: #007acc;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px auto;
+  padding: 20px;
+  width: 90%;
+  max-width: 1200px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Stylizacja formularzy i przycisków */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+input[type="number"], 
+input[type="text"], 
+input[type="password"] {
+  width: 100%;
+  max-width: 300px;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+button, input[type="submit"] {
+  background-color: #007acc;
+  color: white;
+  padding: 12px 25px;
+  margin: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover, input[type="submit"]:hover {
+  background-color: #005f99;
+  transform: scale(1.05);
+}
+
+/* Sekcja wzorów i animacji */
+.formulas-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.formula {
+  background-color: #f9f9f9;
+  padding: 15px;
+  margin: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Styl dla sekcji "Zapisane Parametry" */
+.saved-parameters {
+  background-color: #e6f7ff; /* Bardzo jasnoniebieski */
+  padding: 20px;
+  margin: 20px 0;
+  border: 1px solid #b3e0ff;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  font-size: 1em;
+  color: #333;
+}
+
+.saved-parameters h2 {
+  margin-bottom: 10px;
+  color: #007acc;
+}
+
+.saved-parameters p {
+  margin: 5px 0;
+}
+
+
+.canvas-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f0f8ff; /* Jasnoniebieskie tło */
+  border: 2px solid #007acc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 800px; /* Stała szerokość kontenera */
+  max-width: 100%; /* Dostosowanie do małych ekranów */
+}
+
+canvas {
+  border: 2px solid #cf6666; /* Ramka */
+  border-radius: 8px;
+  background-color: #ffffff; /* Białe tło */
+  position: relative;
+  width: 100%; /* Dopasowanie do kontenera */
+  height: auto; /* Proporcjonalna wysokość */
+}
+
+
+.centered {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.centered img {
+  max-width: 100%;
+  height: auto;
+  width: 500px;
+}
+
+/* Stopka */
+footer {
+  background-color: #007acc;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+  font-size: 0.9em;
+}
