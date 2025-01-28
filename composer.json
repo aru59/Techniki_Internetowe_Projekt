@@ -1,6 +1,9 @@
 {
-  "require": {},
+  "require": {
+      "ext-pdo": "*",
+      "ext-sqlite3": "*"
+  },
   "scripts": {
-    "start": "php -S 0.0.0.0:80 -t ."
+      "start": "php -S 0.0.0.0:$PORT -t ."
   }
 }
